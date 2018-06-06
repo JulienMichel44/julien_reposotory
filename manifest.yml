@@ -1,0 +1,7 @@
+---
+applications:
+- services:
+  - my-discovery-service
+  - my-assistant-service
+  path: build/libs/watson-assistant-with-discovery-0.1-SNAPSHOT.war
+  memory: 512M
